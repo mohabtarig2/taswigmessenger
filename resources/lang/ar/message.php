@@ -38,6 +38,8 @@ return [
     "Option to split likes on multiple pictures"=>"خيار لتقسيم الإعجابات على صور متعددة",
     "Includes video views"=>"يشمل مشاهدات الفيديو",
     "High quality"=>"جودة عالية",
+    'lang'=>'en',
+    "langLink"=>'/en',
 
 
 
@@ -112,7 +114,7 @@ return [
 
 
     'Quality'=>'الجودة وأفضل المعدات',
-    'Support'=>'24/7 الدعم والمراجعة',
+    'Support'=>'24/7 الدعم ',
     'Customer'=>'رضا العميل',
 
 

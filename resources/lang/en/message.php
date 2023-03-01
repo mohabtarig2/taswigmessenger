@@ -3,20 +3,20 @@
 return [
   "Taswig_messenger"=>'Taswig Messenger',
   "Buy_Instagram_Followers_and_Likes_starting_at_100AED"=> 'Buy Instagram Followers and Likes starting at 100 AED',
-  "Buy_Instagram_Likes"=>"Buy Likes",
+  "Buy_Instagram_Likes"=>"Buy Instagram Likes",
   "Buy_Instagram_Followers"=>"Buy Instagram Followers",
   "Buy_Instagram_Views"=>"Buy Instagram Views",
   "Our_Process"=>"Our Process",
   "process_two"=>"Taswig messenger is here to help! Buy Instagram followers , likes and views that are delivered instantly and safely.",
-  "Most_individuals_are_totally_unwilling_to_invest_time_into_a_profile_that_has_little_interaction."=>"Most individuals are totally unwilling to invest time into a profile that has little interaction.",
+  "Most_individuals_are_totally_unwilling_to_invest_time_into_a_profile_that_has_little_interaction"=>"Most individuals are totally unwilling to invest time into a profile that has little interaction.",
   "process_one"=>" However, if they see other members in their social network actively participating, it makes investing time into a social media profile both fun and easy.",
   "with Instant Delivery"=>"with Instant Delivery",
   "Buy_Instagram_Followers_&_Likes"=>"Buy Instagram Followers & Likes",
   "Delivered_in_Minutes"=>"Delivered in Minutes",
   "Social_media"=>"Social media is exploding and a revolution is going on that’s changing the way consumers interact with businesses.",
   "Select_package"=>"Select package",
-  ".25%_OFF_NOW"=>".25%_OFF_NOW",
-  "How_It_Works"=>"How_It_Works",
+  "25%_OFF_NOW"=>" 25% OFF NOW",
+  "How_It_Works"=>"How It Works",
   "buying_likes"=>"Buying likes for your Instagram posts is the best way to gain more engagement and success. Improve your social media marketing strategy with Taswig Messenger.",
     "Instant_delivery_guaranteed_phragrapgh"=>"You will typically start seeing Likes, Followers, and Views within minutes of purchasing. ",
     "Our_guarantee"=>"Our guarantee",
@@ -27,10 +27,22 @@ return [
     "Instant_delivery_guaranteed"=>"Instant delivery guaranteed",
 
     "High_quality_followers"=>"High quality followers",
-
+    "High quality"=>"High quality",
+    "Followers"=>"Followers",
+    'lang'=>'ar',
+    "langLink"=>'/ar',
+    "Buy now"=>"Buy now",
+    "Fast delivery"=>"Fast delivery",
+    "Guaranteed Instant  Delivery"=>"Guaranteed Instant  Delivery",
+    "REAL likes REAL people"=>"REAL likes REAL people",
+    "Option to split likes on multiple pictures"=>"Option to split likes on multiple pictures",
+    "Includes video views"=>"Includes video views",
 
 
   "AED"=>"AED",
+  "Views"=>"Views",
+  "Likes"=>"Likes",
+  "Followers"=>"Followers",
   "See_the_magic"=>'See the magic',
   "See_the_magic.after"=>"After selecting your package and providing account details (your username only), you're already done! Our process is expedited so that it is both fast and easy to provide you with the Likes and Followers you need.",
 
@@ -109,7 +121,7 @@ return [
     'q4'=>'We do not evaluate our success on financial metrics, but on the satisfaction of our customers. We strongly believe that customer satisfaction is the best marketing tool, so our promises remain the best tool for getting more customers',
 
     'Quality'=>'Quality & Best Equipments',
-    'Support'=>'24/7 Support & Review',
+    'Support'=>'24/7 Support ',
     'Customer'=>'Customer satisfaction',
 
       

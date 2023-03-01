@@ -13,6 +13,8 @@
      
         <link rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&#038;display=swap" />
+            <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 
     
 
@@ -677,11 +679,11 @@ section .section__head h2 strong ,
 
         @media (max-width:767px) {
             .btn--small {
-                padding: 8px 10px
+                padding: 13px 10px
             }
 
             .btn--small>span {
-                font-size: 10px
+                font-size: 15px !important
             }
         }
 
@@ -2267,9 +2269,9 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
 </head>
 
 <body class="show-upsell-bar">
-    <a id="enquire-cta" href="https://wa.me/+971503630050"
+    <a  href="https://wa.me/+971503630050"
          class="float-whatsapp">
-         <i class="fa fa-whatsapp " aria-hidden="true"></i>
+         <i class='bx bxl-whatsapp'></i>
 
 
 </a>
@@ -2308,6 +2310,12 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
                             alt="Buzzoid" data-lazy-src="/images/temp/logo.jpg" /><noscript><img
                                 src="/images/temp/logo.jpg" alt="Buzzoid" /></noscript>
                     </a>
+                    <div class="topbar-language">
+                        <i class="fa fa-globe"></i>
+
+                        <a href="{{__('message.langLink') }}" >{{__('message.lang')}}</option>
+
+                    </div>
                     <!-- 
                     <div class="header_review">
                         <a class="header_review_link" data-tracked="true">
@@ -2318,7 +2326,9 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
                                 <span><i class="fas fa-star"></i></span>
                                 <span><i class="fas fa-star"></i></span>
                                 <span><i class="fas fa-star"></i></span>
+                                
                             </span>
+                            
                         </a>
                     </div>
                     !-->
@@ -2393,7 +2403,7 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
                         <span>{{__('message.Buy_Instagram_Followers')}}</span>
                     </a>
                     <a href="#Likes_table" class="btn btn--small">
-                        <span>{{__('message.Buy_Instagram_Likes')}}</spa n>
+                        <span>{{__('message.Buy_Instagram_Likes')}}</span>
                     </a>
                     <a href="#Views_table" class="btn btn--small">
                         <span>{{__('message.Buy_Instagram_Views')}}</span>
@@ -2702,7 +2712,7 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
                                                     </li>
                                                     <li>
                                                         <i class="ico-support"></i>
-                                                        <span>{{__('message.24/7 support')}}</span>
+                                                        <span>{{__('message.Support')}}</span>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -2744,7 +2754,7 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
                                                     </li>
                                                     <li>
                                                         <i class="ico-support"></i>
-                                                        <span>{{__('message.24/7 support')}}</span>
+                                                        <span>{{__('message.Support')}}</span>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -2788,7 +2798,7 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
                                                     </li>
                                                     <li>
                                                         <i class="ico-support"></i>
-                                                        <span>{{__('message.24/7 support')}}</span>
+                                                        <span>{{__('message.Support')}}</span>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -2832,7 +2842,7 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
                                                     </li>
                                                     <li>
                                                         <i class="ico-support"></i>
-                                                        <span>{{__('message.24/7 support')}}</span>
+                                                        <span>{{__('message.Support')}}</span>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -2876,7 +2886,7 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
                                                     </li>
                                                     <li>
                                                         <i class="ico-support"></i>
-                                                        <span>{{__('message.24/7 support')}}</span>
+                                                        <span>{{__('message.Support')}}</span>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -2920,7 +2930,7 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
                                                     </li>
                                                     <li>
                                                         <i class="ico-support"></i>
-                                                        <span>{{__('message.24/7 support')}}</span>
+                                                        <span>{{__('message.Support')}}</span>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -3245,7 +3255,7 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
                                                                 </li>
                                                                 <li>
                                                                     <i class="ico-support"></i>
-                                                                    <span>{{__('message.24/7 support')}}</span>
+                                                                    <span>{{__('message.Support')}}</span>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -3293,7 +3303,7 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
                                                                 </li>
                                                                 <li>
                                                                     <i class="ico-support"></i>
-                                                                    <span>{{__('message.24/7 support')}}</span>
+                                                                    <span>{{__('message.Support')}}</span>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -3340,7 +3350,7 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
                                                                 </li>
                                                                 <li>
                                                                     <i class="ico-support"></i>
-                                                                    <span>{{__('message.24/7 support')}}</span>
+                                                                    <span>{{__('message.Support')}}</span>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -3387,7 +3397,7 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
                                                                 </li>
                                                                 <li>
                                                                     <i class="ico-support"></i>
-                                                                    <span>{{__('message.24/7 support')}}</span>
+                                                                    <span>{{__('message.Support')}}</span>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -3420,7 +3430,7 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
                                                             <ul>
                                                                 <li>
                                                                     <i class="ico-quality"></i>
-                                                                    <span><strong>{{__('message.High quality')}}</strong>{{__('message.Views')}}</span>
+                                                                    <span><strong>{{__('message.High quality')}} </strong>{{__('message.Views')}}</span>
                                                                 </li>
                                                                 <li>
                                                                     <i class="ico-passowrd"></i>
@@ -3434,7 +3444,7 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
                                                                 </li>
                                                                 <li>
                                                                     <i class="ico-support"></i>
-                                                                    <span>{{__('message.24/7 support')}}</span>
+                                                                    <span>{{__('message.Support')}}</span>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -3482,7 +3492,7 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
                                                                 </li>
                                                                 <li>
                                                                     <i class="ico-support"></i>
-                                                                    <span>{{__('message.24/7 support')}}</span>
+                                                                    <span>{{__('message.Support')}}</span>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -3528,7 +3538,7 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
                                                                 </li>
                                                                 <li>
                                                                     <i class="ico-support"></i>
-                                                                    <span>{{__('message.24/7 support')}}</span>
+                                                                    <span>{{__('message.Support')}}</span>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -3668,10 +3678,12 @@ if(navigator.userAgent.match(/(iPhone|iPod|iPad)/i)) {
 <script src="{{ URL::asset('js/bundle.js')}}"></script>
 <!-- Main JS -->
 <script src="{{ URL::asset('js/lazyload.min.js')}}"></script>
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
 
 <script>
     $( "#Likes_table" ).click(function() {
-  alert( "Handler for .click() called." );
+ cons
 });
 
     </script>
