@@ -28,21 +28,19 @@
            
    
     <style>
-        .float-whatsapp{
-     
+       .float-whatsapp {
     background-color: #099406;
-
-            position: fixed;
-    width: 40px;
-    height: 40px;
+    position: fixed;
+    width: 60px;
+    height: 60px;
     bottom: 40px;
     right: 40px;
     color: #FFF;
     border-radius: 50px;
     text-align: center;
-    font-size: 30px;
+    font-size: 42px;
     z-index: 999999;
-        }
+}
 
         .fragment-package .fragment__price , .btn  {
     background-color: #3554d1 !important;
@@ -2143,61 +2141,7 @@ section .section__head h2 strong ,
             float: left;
         }
     </style>
-    <script type="rocketlazyloadscript" data-rocket-type='text/javascript' id='ez-toc-scroll-scriptjs-js-{{__('message.See_the_magic.after')}}'>
-function ezTocScrollScriptJS() {
-    document.querySelectorAll('.ez-toc-section').forEach(span => {
-//        console.log(span.getAttribute('id'));
-        span.setAttribute('ez-toc-data-id', '#' + decodeURI(span.getAttribute('id')));
-	});
-    document.querySelectorAll('a.ez-toc-link').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-//            console.log('[id="' + this.getAttribute('href') + '"]');
-//            console.log(document.getElementById('[id="' + this.getAttribute('href') + '"]'));
-            
-            document.querySelector('[ez-toc-data-id="' + decodeURI(this.getAttribute('href')) + '"]').scrollIntoView({
-                behavior: 'smooth'
-            });
-        });
-    });
-};           
-document.addEventListener('DOMContentLoaded', ezTocScrollScriptJS, false);
-</script>
-    <link rel="https://api.w.org/" href="https://buzzoid.com/wp-json/" />
-    <link rel="alternate" type="application/json" href="https://buzzoid.com/wp-json/wp/v2/pages/14" />
-    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://buzzoid.com/xmlrpc.php?rsd" />
-    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://buzzoid.com/wp-includes/wlwmanifest.xml" />
-    <meta name="generator" content="WordPress 6.1.1" />
-    <link rel='shortlink' href='https://buzzoid.com/' />
-    <link rel="alternate" type="application/json+oembed"
-        href="https://buzzoid.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fbuzzoid.com%2F" />
-    <link rel="alternate" hreflang="en-US" href="https://buzzoid.com/" />
-    <link rel="alternate" hreflang="fr-FR" href="https://buzzoid.com/fr/" />
-    <link rel="alternate" hreflang="de-DE" href="https://buzzoid.com/de/" />
-    <link rel="alternate" hreflang="pt-BR" href="https://buzzoid.com/pt/" />
-    <link rel="alternate" hreflang="nl-NL" href="https://buzzoid.com/nl/" />
-    <link rel="alternate" hreflang="en" href="https://buzzoid.com/" />
-    <link rel="alternate" hreflang="fr" href="https://buzzoid.com/fr/" />
-    <link rel="alternate" hreflang="de" href="https://buzzoid.com/de/" />
-    <link rel="alternate" hreflang="pt" href="https://buzzoid.com/pt/" />
-    <link rel="alternate" hreflang="nl" href="https://buzzoid.com/nl/" />
-    <link rel="alternate" hreflang="x-default" href="https://buzzoid.com/" />
-    <link rel="icon" href="https://buzzoid.com/wp-content/uploads/2015/12/cropped-buzzoid-logo-32x32.png"
-        sizes="32x32" />
-    <link rel="icon" href="https://buzzoid.com/wp-content/uploads/2015/12/cropped-buzzoid-logo-192x192.png"
-        sizes="192x192" />
-    <link rel="apple-touch-icon"
-        href="https://buzzoid.com/wp-content/uploads/2015/12/cropped-buzzoid-logo-180x180.png" />
-    <meta name="msapplication-TileImage"
-        content="https://buzzoid.com/wp-content/uploads/2015/12/cropped-buzzoid-logo-270x270.png" />
-    <noscript>
-        <style id="rocket-lazyload-nojs-css">
-            .rll-youtube-player,
-            [data-lazy-src] {
-                display: none !important;
-            }
-        </style>
-    </noscript>
+
     <script type="rocketlazyloadscript">
 /*! loadCSS rel=preload polyfill. [c]2017 Filament Group, Inc. MIT License */
 (function(w){"use strict";if(!w.loadCSS){w.loadCSS=function(){}}
@@ -2317,7 +2261,7 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
                             <div class="topbar-language">
                                 <i class="fa fa-globe"></i>
         
-                                <a href="{{__('message.langLink') }}" >{{__('message.lang')}}</option>
+                                <b>  <a href="{{__('message.langLink') }}" style="font-size:16px">{{__('message.lang')}} </a></b> 
         
                             </div>
                             
@@ -2332,7 +2276,7 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
                             <li>
                                 <i class="fa fa-globe"></i>
         
-                                <a href="{{__('message.langLink') }}" >{{__('message.lang')}}</option>                            </li>
+                                <b>  <a href="{{__('message.langLink') }}" style="font-size:16px">{{__('message.lang')}} </a></b>                        </li>
                             <li>
                                 <a href="#Likes_table">{{__('message.Buy_Instagram_Likes')}}</a>
                             </li>
@@ -3676,12 +3620,24 @@ if(navigator.userAgent.match(/(iPhone|iPod|iPad)/i)) {
 <script src="{{ URL::asset('js/lazyload.min.js')}}"></script>
 <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 
+<script src="{{ URL::asset('js/active.js')}}"></script>
 
 <script>
-    $( "#Likes_table" ).click(function() {
- cons
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+    e.preventDefault();
+    $("body").removeClass("show-nav-main");
+
+    document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+    });
+});
 });
 
+
+window.onload = function(){
+    location.href=document.getElementById("selectbox").value;
+}  
     </script>
 </body>
 
