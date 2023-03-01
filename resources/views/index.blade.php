@@ -33,8 +33,8 @@
     background-color: #099406;
 
             position: fixed;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     bottom: 40px;
     right: 40px;
     color: #FFF;
@@ -2310,28 +2310,20 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
                             alt="Buzzoid" data-lazy-src="/images/temp/logo.jpg" /><noscript><img
                                 src="/images/temp/logo.jpg" alt="Buzzoid" /></noscript>
                     </a>
-                    <div class="topbar-language">
-                        <i class="fa fa-globe"></i>
-
-                        <a href="{{__('message.langLink') }}" >{{__('message.lang')}}</option>
-
-                    </div>
-                    <!-- 
+              
+                   
                     <div class="header_review">
                         <a class="header_review_link" data-tracked="true">
-                            <span>5.0</span>
-                            <span class="stars">
-                                <span><i class="fas fa-star"></i></span>
-                                <span><i class="fas fa-star"></i></span>
-                                <span><i class="fas fa-star"></i></span>
-                                <span><i class="fas fa-star"></i></span>
-                                <span><i class="fas fa-star"></i></span>
-                                
-                            </span>
+                            <div class="topbar-language">
+                                <i class="fa fa-globe"></i>
+        
+                                <a href="{{__('message.langLink') }}" >{{__('message.lang')}}</option>
+        
+                            </div>
                             
                         </a>
                     </div>
-                    !-->
+                 
                     <button type="button" class="btn-menu" onclick="document.body.classList.toggle('show-nav-main');">
                         <i class="far fa-bars"></i>
                     </button>
