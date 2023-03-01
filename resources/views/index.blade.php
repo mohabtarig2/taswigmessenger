@@ -2330,6 +2330,10 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
                     <nav class="nav">
                         <ul>
                             <li>
+                                <i class="fa fa-globe"></i>
+        
+                                <a href="{{__('message.langLink') }}" >{{__('message.lang')}}</option>                            </li>
+                            <li>
                                 <a href="#Likes_table">{{__('message.Buy_Instagram_Likes')}}</a>
                             </li>
                             <li>
