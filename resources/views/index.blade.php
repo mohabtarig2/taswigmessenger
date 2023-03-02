@@ -2259,9 +2259,24 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
                     <div class="header_review">
                         <a class="header_review_link" data-tracked="true">
                             <div class="topbar-language">
-                                <i class="fa fa-globe"></i>
+                            
         
-                                <b>  <a href="{{__('message.langLink') }}" style="font-size:16px">{{__('message.lang')}} </a></b> 
+                                @php
+                                if( app()->getLocale()=='en'){
+                                 echo '<img src="https://cdn.cdnlogo.com/logos/f/67/flag-of-united-arab-emirates.svg" style="width: 20px; hieght: 20px;"> ';
+                                }else{
+ 
+                                 echo '<img src="https://flagicons.lipis.dev/flags/1x1/um.svg" style="width: 20px;hieght: 20px;"> ';
+                                }
+ 
+                                 @endphp
+         
+                                 <b>  <a href="{{__('message.langLink') }}" style="font-size:16px">{{__('message.lang')}} </a></b>       
+                          
+
+
+
+                                
         
                             </div>
                             
@@ -2274,7 +2289,16 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
                     <nav class="nav">
                         <ul>
                             <li>
-                                <i class="fa fa-globe"></i>
+                               
+                                @php
+                               if( app()->getLocale()=='en'){
+                                echo '<img src="https://cdn.cdnlogo.com/logos/f/67/flag-of-united-arab-emirates.svg" style="width: 20px; hieght: 20px;"> ';
+                               }else{
+
+                                echo '<img src="https://flagicons.lipis.dev/flags/1x1/um.svg" style="width: 20px;hieght: 20px;"> ';
+                               }
+
+                                @endphp
         
                                 <b>  <a href="{{__('message.langLink') }}" style="font-size:16px">{{__('message.lang')}} </a></b>                        </li>
                             <li>
@@ -3500,6 +3524,147 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
                 </div>
             </div>
         </section>
+        <footer class="footer">
+            <div class="footer__inner">
+            <div class="shell">
+          
+            <nav class="nav">
+                <ul>
+             
+                        <a href="#Likes_table">{{__('message.Buy_Instagram_Likes')}}</a>
+                    </li>
+                    <li>
+                        <a href="#Followers_table">{{__('message.Buy_Instagram_Followers')}}</a>
+                    </li>
+                    <li>
+                        <a href="#Views_table">{{__('message.Buy_Instagram_Views')}}</a>
+                    </li>
+                    <li>
+
+                        <a href="https://wa.me/+971503630050">{{__('message.contact')}}</a>
+                    </li>
+
+
+                </ul>
+            </nav>
+            <nav class="nav-footer-mobile">
+                <ul>
+              
+                        <a href="#Likes_table">{{__('message.Buy_Instagram_Likes')}}</a>
+                    </li>
+                    <li>
+                        <a href="#Followers_table">{{__('message.Buy_Instagram_Followers')}}</a>
+                    </li>
+                    <li>
+                        <a href="#Views_table">{{__('message.Buy_Instagram_Views')}}</a>
+                    </li>
+                    <li>
+
+                        <a href="https://wa.me/+971503630050">{{__('message.contact')}}</a>
+                    </li>
+
+
+                </ul>
+            <ul>
+        
+        
+            
+            </ul>
+            </nav>
+            </div>
+            </div>
+            <style>
+            .nav-lang {
+              float:left;
+            }
+            .trp-language-switcher {
+              display:block;
+              margin:0;
+              height: 28px !important;
+            }
+            .trp-ls-shortcode-current-language {
+              background: transparent !important;
+              border: 0 none !important;
+            }
+            .trp-ls-shortcode-language {
+              background: transparent !important;
+              border: 0 none !important;
+              display: block !important;
+            }
+            .trp-language-switcher>div>a {
+              display: inline !important;
+            }
+            
+            @media only screen and (max-width: 600px) {
+              .nav-lang {
+                float:none;
+                margin-bottom:8px;
+              }
+              .nav-brand {
+                clear:both;
+              }
+            }
+            </style>
+            <div class="footer__brands">
+          
+            <script type="application/javascript">
+                    // need to have the same with set from JS on both divs. Otherwise it can push stuff around in HTML
+                    var trp_ls_shortcodes = document.querySelectorAll('.trp-language-switcher');
+                    if ( trp_ls_shortcodes.length > 0) {
+                        // get the last language switcher added
+                        var trp_el = trp_ls_shortcodes[trp_ls_shortcodes.length - 1];
+            
+                        /* Added extra check to not execute width adjustment on the shortcode language switcher placed inside
+                         * trp_ald_ls_shortcode_popup Automatic User Language Detection Popup.
+                         * A similar script is executed there to adjust width.
+                         */
+                        if ( ! ( (" " + trp_el.parentNode.className + " ").replace(/[\n\t]/g, " ").indexOf(" trp_ald_ls_shortcode_popup ") > -1 ) ){
+                            // above expression is vanilla JS for "does not have CSS class trp_ald_ls_shortcode_popup" in the parent node
+            
+                            var trp_shortcode_language_item = trp_el.querySelector( '.trp-ls-shortcode-language' )
+                            // set width
+                            var trp_ls_shortcode_width                                               = trp_shortcode_language_item.offsetWidth + 16;
+                            trp_shortcode_language_item.style.width                                  = trp_ls_shortcode_width + 'px';
+                            trp_el.querySelector( '.trp-ls-shortcode-current-language' ).style.width = trp_ls_shortcode_width + 'px';
+            
+                            // We're putting this on display: none after we have its width.
+                            trp_shortcode_language_item.style.display = 'none';
+                        }
+                    }
+                </script>
+            </div>
+            </div> </div>
+            <nav class="nav-brands container">
+            <ul>
+            <li>
+                <a href="https://www.instagram.com/taswigmessenger/">
+                    <i class='bx bxl-instagram-alt fa-2x '></i>
+                </a>
+                 
+            </li>
+            <a href="https://www.facebook.com/taswigmessenger/">
+                <i class='bx bxl-facebook-square fa-2x'></i>
+            </a>
+            <li>
+
+
+            </li>
+         
+            </ul>
+            </nav>
+            </div>
+            </div>
+            <div class="footer__copyright">
+            <div class="shell">
+            
+            <p>{{__('message.Copyright')}} © 2023 {{__('message.Taswig_messenger')}}. {{__('message.All_Rights_Reserved')}}</p>
+            </div>
+            </div>
+            </footer>
+            </div>
+            </div>
+        
+            </footer>
 
 
 

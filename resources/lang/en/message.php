@@ -129,6 +129,9 @@ return [
     'supply'=>'Supply',
     'maintenance'=>'Maintenance',
     'Cleaning'=>'Cleaning',
+    "All_Rights_Reserved"=>"All Rights Reserved",
+    "Copyright"=>"Copy right",
+
     ]
 
 ?>

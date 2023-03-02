@@ -122,6 +122,8 @@ return [
     'supply'=>'توريد',
     'maintenance'=>' صيانة المكيف',
     'Cleaning'=>'تنظيق المكيف',
+    "All_Rights_Reserved"=>"كل الحقوق محفوظة  ",
+    "Copyright"=>"حقوق النشر ",
 ];
 
 ?>
