@@ -29,7 +29,7 @@ return [
     "High_quality_followers"=>"High quality followers",
     "High quality"=>"High quality",
     "Followers"=>"Followers",
-    'lang'=>'ar',
+    'lang'=>'Arabic',
     "langLink"=>'/ar',
     "Buy now"=>"Buy now",
     "Fast delivery"=>"Fast delivery",
