@@ -3638,12 +3638,16 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
             <ul>
             <li>
                 <a href="https://www.instagram.com/taswigmessenger/">
-                    <i class='bx bxl-instagram-alt fa-2x '></i>
+                    <i class="bx bxl-instagram-alt fa-2x " style="
+    color: #c944d2;
+"></i>
                 </a>
                  
             </li>
             <a href="https://www.facebook.com/taswigmessenger/">
-                <i class='bx bxl-facebook-square fa-2x'></i>
+                <i class="bx bxl-facebook-square fa-2x" style="
+                color: #1e49efdd;
+            "></i>
             </a>
             <li>
 
@@ -3656,8 +3660,9 @@ else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
             </div>
             <div class="footer__copyright">
             <div class="shell">
-            
+            <center>
             <p>{{__('message.Copyright')}} © 2023 {{__('message.Taswig_messenger')}}. {{__('message.All_Rights_Reserved')}}</p>
+            </center>
             </div>
             </div>
             </footer>
